@@ -25,3 +25,4 @@
    {name: '-Mae West', quote: 'You only live once, but if you do it right, once is enough.'},
    {name: '-Helen Keller', quote: 'Life is either a daring adventure or nothing at all.'},
 ];
+
