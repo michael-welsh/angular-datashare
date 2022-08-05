@@ -1,0 +1,10 @@
+
+    <h2>{{expression}} {{counters.length}} famous people counted items on their favorite things: </h2>
+
+    <app-child
+      *ngFor="let counter of counters"
+      [counter]="counter"
+      [expression]="expression">
+    </app-child>
+
+    <h4>ok... cards in a deck, not on a deck. You get the idea... </h4>
