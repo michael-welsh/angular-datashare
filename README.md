@@ -1,6 +1,7 @@
 # angular-datashare
 a blogged project that demostrates how to share data between angular components
-# Datashare
+
+# Datasharex
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
