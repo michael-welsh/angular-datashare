@@ -1,0 +1,12 @@
+<h2>Hockey Player Vote</h2>
+<button type="button" (click)="newVote()">Next Performance Vote</button>
+<p>Who is the {{this.stats[this.nextStat]}}? </p>
+<app-hockey-player
+  *ngFor="let player of players"
+  [player]="player">
+</app-hockey-player>
+
+<h3>Vote History</h3>
+<ul> 
+    <li *ngFor="let event of history">{{event}}</li> 
+</ul>

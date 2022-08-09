@@ -29,7 +29,7 @@ import { QUOTES, famousQuotes } from '../../data.model';
 
     getQuoteNumber(){
       if(this.quoteNumber < 0){ this.quoteNumber = this.quotes.length-1}
-      if(this.quoteNumber > this.quotes.length-1){this.quoteNumber = 0}
+      if(this.quoteNumber >= this.quotes.length){this.quoteNumber = 0}
       return this.quoteNumber;
     }
   }

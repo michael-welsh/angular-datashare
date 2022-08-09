@@ -9,6 +9,9 @@ import { ViewChildChildComponent } from './viewchild/child/child.component';
 import { ViewChildParentComponent } from './viewchild/parent/parent.component';
 import { OutputParentComponent } from './output/parent/parent.component';
 import { OutputChildComponent } from './output/child/child.component';
+import { HockeyVoteComponent } from './service/parent/parent.component';
+import { VoterComponent } from './service/child/child.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { OutputChildComponent } from './output/child/child.component';
     ViewChildParentComponent,
     ViewChildChildComponent,
     OutputParentComponent,
-    OutputChildComponent
+    OutputChildComponent,
+    HockeyVoteComponent,
+    VoterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
